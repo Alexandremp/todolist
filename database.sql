@@ -5,7 +5,7 @@ drop table  todo_list;
 drop table  user_information;
 
 create table user_information(
-	  id int not null AUTO_INCREMENT,
+    id int not null AUTO_INCREMENT,
     username VARCHAR(64) NOT NULL,
     pass VARCHAR(64) NOT NULL,
     PRIMARY KEY (id)
